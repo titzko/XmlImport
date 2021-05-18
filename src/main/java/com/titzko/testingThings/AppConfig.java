@@ -13,7 +13,7 @@ import java.nio.file.*;
 
 @Configuration
 public class AppConfig {
-    private static final String DIRECTORY="C:/Users/matthias.willers/Desktop/projectXmlImportDirectory";
+    private static final String DIRECTORY="";
 
 
     @Autowired
