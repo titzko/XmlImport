@@ -23,6 +23,7 @@ import java.util.List;
 public class ItemMapper implements MappingCapable{
 
     static final String ITEM = "item";
+    static final String ID = "id";
     static final String MODE = "mode";
     static final String UNIT = "unit";
     static final String CURRENT = "current";
@@ -58,6 +59,10 @@ public class ItemMapper implements MappingCapable{
                             }
                         }
                         break;
+                    case ID:
+                        event = xmlEventReader.nextEvent();
+                        item.setId(Long.valueOf(event.asCharacters().getData()));
+                        break;
                     case MODE:
                         event = xmlEventReader.nextEvent();
                         item.setMode(event.asCharacters().getData());
@@ -85,8 +90,6 @@ public class ItemMapper implements MappingCapable{
         itemRepository.saveAll(itemList);
 
     }
-
-
 
 
 }

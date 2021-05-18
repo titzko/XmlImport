@@ -1,18 +1,15 @@
 package com.titzko.testingThings;
 
 import com.titzko.testingThings.stax.adapter.repositories.ItemRepository;
-import com.titzko.testingThings.stax.application.model.Item;
 import com.titzko.testingThings.stax.port.XmlImportPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import javax.xml.stream.XMLStreamException;
 import java.io.FileNotFoundException;
 import java.nio.file.*;
-import java.util.List;
-import java.util.stream.Collectors;
+
 
 @Configuration
 public class AppConfig {

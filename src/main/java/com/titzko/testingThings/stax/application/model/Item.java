@@ -25,6 +25,14 @@ public class Item {
     public Item() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Item(String date, String mode, String unit, String current, String interactive) {
         this.date = date;
         this.mode = mode;
