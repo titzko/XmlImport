@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
 import javax.xml.stream.XMLStreamException;
 import java.io.FileNotFoundException;
 import java.nio.file.*;
@@ -13,7 +14,7 @@ import java.nio.file.*;
 
 @Configuration
 public class AppConfig {
-    private static final String DIRECTORY="";
+    private static final String DIRECTORY="C:/Users/matthias.willers/Desktop/projectXmlImportDirectory";
 
 
     @Autowired
