@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Header>
+    <MESSAGE_TYPE>Item</MESSAGE_TYPE>
+    </Header>
+    <item date="January 2009">
+        <mode>1</mode>
+        <unit>900</unit>
+        <current>1</current>
+        <interactive>1</interactive>
+    </item>
+    <item date="February 2009">
+        <mode>2</mode>
+        <unit>400</unit>
+        <current>2</current>
+        <interactive>5</interactive>
+    </item>
+    <item date="December 2009">
+        <mode>1234</mode>
+        <unit>1234</unit>
+        <current>1234</current>
+        <interactive>1234</interactive>
+    </item>
+</config>

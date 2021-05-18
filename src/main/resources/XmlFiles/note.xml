@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>
+    <Header>
+        <MESSAGE_TYPE>example</MESSAGE_TYPE>
+    </Header>
+    <example>
+        <receiver>Tove</receiver>
+        <sender>Jani</sender>
+        <heading>Reminder</heading>
+        <message>Don't forget me this weekend!</message>
+    </example>
+</body>
